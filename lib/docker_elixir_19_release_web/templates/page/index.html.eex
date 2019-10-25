@@ -6,6 +6,8 @@
 <section class="row">
   <article class="column">
     <h2>Resources</h2>
+    <p> <strong>My cool msg: 😎</strong>: <%= Application.get_env(:docker_elixir_19_release, :cool_text) %></p>
+
     <ul>
       <li>
         <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
